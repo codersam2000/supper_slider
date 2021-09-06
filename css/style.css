@@ -1,0 +1,32 @@
+
+.carousel{
+	margin: 4rem auto;
+}
+.gallery-top .swiper-slide{
+	width: 100% !important;
+	height: 400px;
+}
+.gallery-top .swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin: auto;
+}
+.gallery-thumbs{
+	padding: 1rem;
+}
+.gallery-thumbs .swiper-slide{
+	width: 20% !important;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.gallery-thumbs .swiper-slide img{
+	width: 100%;
+	height: 100px;	
+}
+/*.swiper-slide-active{
+	border:2px solid black;
+}*/
+
